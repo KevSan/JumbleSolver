@@ -1,4 +1,4 @@
-from JumbleSolverScript import solve_jumble_puzzle
+from JumbleSolverFiles.JumbleSolverScript import solve_jumble_puzzle
 
 puzzle_1 = [{
      "nagld": [1, 3, 4],

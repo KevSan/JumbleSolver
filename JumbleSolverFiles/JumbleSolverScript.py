@@ -1,8 +1,11 @@
 import json
 import enchant
 import os
+import sys
 from pyspark import SparkContext
 from pytrends.request import TrendReq
+
+os.environ['PYSPARK_PYTHON'] = sys.executable
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 freq_file = os.path.join(THIS_FOLDER, 'freq_dict.json')
